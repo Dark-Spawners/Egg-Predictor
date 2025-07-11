@@ -5,8 +5,8 @@ local localPlayer = players.LocalPlayer or players:GetPlayers()[1]
 local eggChances = {
     ["Common Egg"] = {["Dog"] = 33, ["Bunny"] = 33, ["Golden Lab"] = 33},
     ["Uncommon Egg"] = {["Black Bunny"] = 25, ["Chicken"] = 25, ["Cat"] = 25, ["Deer"] = 25},
-    ["Rare Egg"] = {["Orange Tabby"] = 33.33, ["Spotted Deer"] = 25, ["Pig"] = 16.67, ["Rooster"] = 16.67, ["Monkey"] = 8.33},
-    ["Legendary Egg"] = {["Cow"] = 42.55, ["Silver Monkey"] = 42.55, ["Sea Otter"] = 10.64, ["Turtle"] = 2.13, ["Polar Bear"] = 2.13},
+    ["Dinosaur Egg"] = {["Raptor"] = 35, ["Triceratops"] = 25, ["Stegosaurus"] = 15, ["Pterodactyl"] = 34, ["Brontosaurus"] = 1},
+    ["Oasis Egg"] = {["Meerkat"] = 42.55, ["Sand Snake"] = 42.55, ["Axolotl"] = 10.64, ["Hyacinth Macaw"] = 2.13, ["Fennec Fox"] = 0.25},
     ["Mythical Egg"] = {["Grey Mouse"] = 37.5, ["Brown Mouse"] = 26.79, ["Squirrel"] = 26.79, ["Red Giant Ant"] = 8.93, ["Red Fox"] = 1},
     ["Bug Egg"] = {["Snail"] = 40, ["Giant Ant"] = 35, ["Caterpillar"] = 25, ["Praying Mantis"] = 4, ["Dragon Fly"] = 1},
     ["Night Egg"] = {["Hedgehog"] = 47, ["Mole"] = 23.5, ["Frog"] = 21.16, ["Echo Frog"] = 8.35, ["Night Owl"] = 4, ["Raccoon"] = 1},
@@ -16,8 +16,6 @@ local eggChances = {
     ["Rare Summer Egg"] = {["Flamingo"] = 30, ["Toucan"] = 25, ["Sea Turtle"] = 20, ["Orangutan"] = 15, ["Seal"] = 10},
     ["Paradise Egg"] = {["Ostrich"] = 43, ["Peacock"] = 33, ["Capybara"] = 24, ["Scarlet Macaw"] = 3, ["Mimic Octopus"] = 1},
     ["Premium Night Egg"] = {["Hedgehog"] = 50, ["Mole"] = 26, ["Frog"] = 14, ["Echo Frog"] = 10}
-    ["Oasis Egg"] = {["Meerkat"] = 45, ["Sand Snake"] = 35, ["Axolotl"] = 15, ["Hyacinth Macaw"] = 5}
-    ["Dinosaur Egg"] = {["Raptor"] = 35, ["Triceratops"] = 32.5, ["Stegosaurus"] = 28, ["Pterodactyl"] = 1, ["Brontosaurus"] = 0.25},
 }
 
 local realESP = {
